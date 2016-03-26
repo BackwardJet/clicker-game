@@ -1,0 +1,292 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBEAD4E61CA72A2100DBD17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD4E51CA72A2100DBD17D /* AppDelegate.swift */; };
+		FBEAD4E81CA72A2100DBD17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD4E71CA72A2100DBD17D /* ViewController.swift */; };
+		FBEAD4EB1CA72A2100DBD17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD4E91CA72A2100DBD17D /* Main.storyboard */; };
+		FBEAD4ED1CA72A2100DBD17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD4EC1CA72A2100DBD17D /* Assets.xcassets */; };
+		FBEAD4F01CA72A2100DBD17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD4EE1CA72A2100DBD17D /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FBEAD4E21CA72A2100DBD17D /* clicker-game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "clicker-game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBEAD4E51CA72A2100DBD17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBEAD4E71CA72A2100DBD17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBEAD4EA1CA72A2100DBD17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBEAD4EC1CA72A2100DBD17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBEAD4EF1CA72A2100DBD17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FBEAD4F11CA72A2100DBD17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBEAD4DF1CA72A2100DBD17D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBEAD4D91CA72A2100DBD17D = {
+			isa = PBXGroup;
+			children = (
+				FBEAD4E41CA72A2100DBD17D /* clicker-game */,
+				FBEAD4E31CA72A2100DBD17D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBEAD4E31CA72A2100DBD17D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD4E21CA72A2100DBD17D /* clicker-game.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBEAD4E41CA72A2100DBD17D /* clicker-game */ = {
+			isa = PBXGroup;
+			children = (
+				FBEAD4E51CA72A2100DBD17D /* AppDelegate.swift */,
+				FBEAD4E71CA72A2100DBD17D /* ViewController.swift */,
+				FBEAD4E91CA72A2100DBD17D /* Main.storyboard */,
+				FBEAD4EC1CA72A2100DBD17D /* Assets.xcassets */,
+				FBEAD4EE1CA72A2100DBD17D /* LaunchScreen.storyboard */,
+				FBEAD4F11CA72A2100DBD17D /* Info.plist */,
+			);
+			path = "clicker-game";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBEAD4E11CA72A2100DBD17D /* clicker-game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBEAD4F41CA72A2100DBD17D /* Build configuration list for PBXNativeTarget "clicker-game" */;
+			buildPhases = (
+				FBEAD4DE1CA72A2100DBD17D /* Sources */,
+				FBEAD4DF1CA72A2100DBD17D /* Frameworks */,
+				FBEAD4E01CA72A2100DBD17D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "clicker-game";
+			productName = "clicker-game";
+			productReference = FBEAD4E21CA72A2100DBD17D /* clicker-game.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBEAD4DA1CA72A2100DBD17D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Tej Vuligonda";
+				TargetAttributes = {
+					FBEAD4E11CA72A2100DBD17D = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 3JLQ687T8E;
+					};
+				};
+			};
+			buildConfigurationList = FBEAD4DD1CA72A2100DBD17D /* Build configuration list for PBXProject "clicker-game" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBEAD4D91CA72A2100DBD17D;
+			productRefGroup = FBEAD4E31CA72A2100DBD17D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBEAD4E11CA72A2100DBD17D /* clicker-game */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBEAD4E01CA72A2100DBD17D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAD4F01CA72A2100DBD17D /* LaunchScreen.storyboard in Resources */,
+				FBEAD4ED1CA72A2100DBD17D /* Assets.xcassets in Resources */,
+				FBEAD4EB1CA72A2100DBD17D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBEAD4DE1CA72A2100DBD17D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBEAD4E81CA72A2100DBD17D /* ViewController.swift in Sources */,
+				FBEAD4E61CA72A2100DBD17D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FBEAD4E91CA72A2100DBD17D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEAD4EA1CA72A2100DBD17D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBEAD4EE1CA72A2100DBD17D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBEAD4EF1CA72A2100DBD17D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBEAD4F21CA72A2100DBD17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBEAD4F31CA72A2100DBD17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBEAD4F51CA72A2100DBD17D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "clicker-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tejvuligonda.clicker-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBEAD4F61CA72A2100DBD17D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "clicker-game/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tejvuligonda.clicker-game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBEAD4DD1CA72A2100DBD17D /* Build configuration list for PBXProject "clicker-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAD4F21CA72A2100DBD17D /* Debug */,
+				FBEAD4F31CA72A2100DBD17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBEAD4F41CA72A2100DBD17D /* Build configuration list for PBXNativeTarget "clicker-game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBEAD4F51CA72A2100DBD17D /* Debug */,
+				FBEAD4F61CA72A2100DBD17D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBEAD4DA1CA72A2100DBD17D /* Project object */;
+}
