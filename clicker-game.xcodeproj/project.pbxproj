@@ -10,8 +10,8 @@
 		FBEAD4E61CA72A2100DBD17D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD4E51CA72A2100DBD17D /* AppDelegate.swift */; };
 		FBEAD4E81CA72A2100DBD17D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBEAD4E71CA72A2100DBD17D /* ViewController.swift */; };
 		FBEAD4EB1CA72A2100DBD17D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD4E91CA72A2100DBD17D /* Main.storyboard */; };
-		FBEAD4ED1CA72A2100DBD17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD4EC1CA72A2100DBD17D /* Assets.xcassets */; };
 		FBEAD4F01CA72A2100DBD17D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD4EE1CA72A2100DBD17D /* LaunchScreen.storyboard */; };
+		FBEAD4F81CA8783600DBD17D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBEAD4F71CA8783600DBD17D /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,9 +19,9 @@
 		FBEAD4E51CA72A2100DBD17D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FBEAD4E71CA72A2100DBD17D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FBEAD4EA1CA72A2100DBD17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FBEAD4EC1CA72A2100DBD17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FBEAD4EF1CA72A2100DBD17D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FBEAD4F11CA72A2100DBD17D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBEAD4F71CA8783600DBD17D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +56,8 @@
 			children = (
 				FBEAD4E51CA72A2100DBD17D /* AppDelegate.swift */,
 				FBEAD4E71CA72A2100DBD17D /* ViewController.swift */,
+				FBEAD4F71CA8783600DBD17D /* Assets.xcassets */,
 				FBEAD4E91CA72A2100DBD17D /* Main.storyboard */,
-				FBEAD4EC1CA72A2100DBD17D /* Assets.xcassets */,
 				FBEAD4EE1CA72A2100DBD17D /* LaunchScreen.storyboard */,
 				FBEAD4F11CA72A2100DBD17D /* Info.plist */,
 			);
@@ -124,7 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBEAD4F01CA72A2100DBD17D /* LaunchScreen.storyboard in Resources */,
-				FBEAD4ED1CA72A2100DBD17D /* Assets.xcassets in Resources */,
+				FBEAD4F81CA8783600DBD17D /* Assets.xcassets in Resources */,
 				FBEAD4EB1CA72A2100DBD17D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
